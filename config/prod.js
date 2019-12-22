@@ -5,5 +5,5 @@ module.exports = {
   cookieKey: process.env.cookieKey,
   FACEBOOK_APP_ID: process.env.FACEBOOK_APP_ID,
   FACEBOOK_APP_SECRET: process.env.FACEBOOK_APP_SECRET,
-  googleRedirectURI: "https://morning-chamber-45724.herokuapp.com/"
+  googleRedirectURI: "https://morning-chamber-45724.herokuapp.com"
 };

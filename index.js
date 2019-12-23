@@ -8,8 +8,6 @@ require("./services/passport");
 
 mongoose.connect(keys.mongoURI);
 
-console.log("googleclientID:" + keys.googleClientID);
-
 const app = express();
 app.use(
   cookieSession({

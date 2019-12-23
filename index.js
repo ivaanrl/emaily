@@ -8,8 +8,9 @@ require("./services/passport");
 
 mongoose.connect(keys.mongoURI);
 
-const app = express();
+console.log("googleclientID:" + keys.googleClientID);
 
+const app = express();
 app.use(
   cookieSession({
     maxAge: 30 * 24 * 60 * 60 * 1000, //30 days
@@ -24,5 +25,3 @@ require("./routes/authRoutes")(app);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT);
-
-//z6fHWUFtuz7Ifn30
